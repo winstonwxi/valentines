@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question for You</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #ffe6e6;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            color: #ff4d4d;
+            font-size: 2.5em;
+        }
+        .btn {
+            font-size: 1.5em;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            cursor: pointer;
+            background-color: #ff4d4d;
+            color: white;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hey, I have a question :3</h1>
+    <button class="btn" onclick="window.location.href='valentine.html'">Next</button>
+</body>
+</html>
